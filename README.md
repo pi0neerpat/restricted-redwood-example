@@ -12,9 +12,7 @@
 
 ### ✨ [Demo](https://restricted-redwood-example.vercel.app)
 
-<video width="320" height="240" controls autoplay loop>
-  <source src="restrictedAccess.mp4" type="video/mp4">
-</video>
+![](restricted-redwood-demo.gif)
 
 ## Install
 
