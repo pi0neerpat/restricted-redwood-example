@@ -12,6 +12,10 @@
 
 ### ✨ [Demo](https://restricted-redwood-example.vercel.app)
 
+<video width="320" height="240" controls autoplay loop>
+  <source src="restrictedAccess.mp4" type="video/mp4">
+</video>
+
 ## Install
 
 NOTE: Anyone who understands web development could break this in a few minutes. It is meant to provide only **limited access protection**, before you reveal your amazing app to the world!
