@@ -26,7 +26,7 @@ yarn install
 
 1. Copy over `web/providers` and add the `AllContextProviders` to your `App.js`
 2. Copy the page `restricted` and add it to `Routes.js`
-3. Add `BASIC_AUTH_PASSWORD` to your `.env`
+3. Add `BASIC_AUTH_PASSWORD` to your `.env`, and update `includeEnvironmentVariables` in your `Redwood.toml`
 
 Run it!
 
