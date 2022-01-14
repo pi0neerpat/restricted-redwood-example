@@ -12,6 +12,8 @@
 
 ### ✨ [Demo](https://restricted-redwood-example.vercel.app)
 
+The password for the demo is `redwoodrocks`
+
 ![](restricted-redwood-demo.gif)
 
 ## Install
