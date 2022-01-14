@@ -1,8 +1,24 @@
-# Redwood Restricted Access Demo
+<h1 align="center">Welcome to restricted-redwood-example 👋</h1>
+<p>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/pi0neerpat" target="_blank">
+    <img alt="Twitter:pi0neerpat" src="https://img.shields.io/twitter/follow/pi0neerpat.svg?style=social" />
+  </a>
+</p>
 
-## Setup
+> Limited access protection, before you reveal your amazing app to the world!
+
+### ✨ [Demo](https://restricted-redwood-example.vercel.app)
+
+## Install
 
 NOTE: Anyone who understands web development could break this in a few minutes. It is meant to provide only **limited access protection**, before you reveal your amazing app to the world!
+
+```sh
+yarn install
+```
 
 1. Copy over `web/providers` and add the `AllContextProviders` to your `App.js`
 2. Copy the page `restricted` and add it to `Routes.js`
@@ -10,24 +26,24 @@ NOTE: Anyone who understands web development could break this in a few minutes. 
 
 Run it!
 
-## Getting Started
+## Usage
 
-- [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
-- [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
-- [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
-
-### Setup
-
-We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
-
-```terminal
-yarn install
+```sh
+yarn rw dev
 ```
 
-### Fire it up
+## Author
 
-```terminal
-yarn redwood dev
-```
+👤 **Patrick Gallagher**
 
-Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`.
+- Website: https://patrickgallagher.dev
+  - Twitter: [@pi0neerpat](https://twitter.com/pi0neerpat)
+  - GitHub: [@pi0neerpat](https://github.com/pi0neerpat)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
