@@ -1,11 +1,17 @@
-# Redwood
+# Redwood Restricted Access Demo
 
-> **NOTICE:** RedwoodJS is very close to a stable version 1.0. In the last two years,
-> the project has matured significantly and is already used in production by a number
-> of startups. We intend to have a 1.0 release candidate before the end of 2021 and
-> to release a truly production-ready 1.0 in early 2022.
+## Setup
+
+NOTE: Anyone who understands web development could break this in a few minutes. It is meant to provide only **limited access protection**, before you reveal your amazing app to the world!
+
+1. Copy over `web/providers` and add the `AllContextProviders` to your `App.js`
+2. Copy the page `restricted` and add it to `Routes.js`
+3. Add `BASIC_AUTH_PASSWORD` to your `.env`
+
+Run it!
 
 ## Getting Started
+
 - [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
 - [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
 - [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
