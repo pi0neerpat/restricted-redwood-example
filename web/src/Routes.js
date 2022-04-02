@@ -14,7 +14,7 @@ const Routes = () => {
     <Router>
       <Route prerender path="/" page={HomePage} name="home" />
       <Route path="/restricted" page={RestrictedPage} name="restricted" />
-      <Route notfound page={NotFoundPage} />
+      <Route prerender notfound page={NotFoundPage} />
     </Router>
   )
 }
